@@ -1,1 +1,6 @@
+#Java bytecode files
 *.class
+
+#Intellij idea config
+.idea/*
+*.iml
