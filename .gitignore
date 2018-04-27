@@ -2,5 +2,7 @@
 *.class
 
 #Intellij idea config
-.idea/*
+*.idea/*
 *.iml
+*.xml
+*.html
