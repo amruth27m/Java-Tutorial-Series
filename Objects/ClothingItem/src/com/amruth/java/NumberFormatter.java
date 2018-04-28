@@ -8,5 +8,11 @@ public class NumberFormatter {
         NumberFormat formatter = NumberFormat.getNumberInstance();
         String formatted = formatter.format(longValue);
         System.out.println(formatted);
+
+        String s1 = "Hello ";
+        String s2 = "World ";
+        String s3 = "Idea ";
+        StringBuilder sb = new StringBuilder(s1).append(s2).append(s3);
+        System.out.println(sb);
     }
 }
