@@ -1,6 +1,7 @@
 package com.amruth.java;
 
 import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class NumberFormatter {
     public static void main(String[] args){
@@ -14,5 +15,9 @@ public class NumberFormatter {
         String s3 = "Idea ";
         StringBuilder sb = new StringBuilder(s1).append(s2).append(s3);
         System.out.println(sb);
+
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        System.out.println("Input is " + input);
     }
 }
